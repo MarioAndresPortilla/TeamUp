@@ -1,0 +1,559 @@
+/*  import google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* event listing list stylings */
+.eventwrapper {
+    list-style-type: none;
+}
+.modifyeventbuttons {
+    list-style-type: none;
+    float:inline-end;
+}
+.eventinfo{
+    list-style-type: none;
+}
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: #2d312b;
+}
+
+
+/* all similar content styling codes */
+
+section {
+    padding: 100px 0;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    bottom: 0;
+    width: 100%;
+}
+
+/* navbar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 25px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: #7ec850;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #7ec850;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar .menu li a:hover {
+    color: #7ec850;
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+
+/* menu btn styling */
+
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    color: #7ec850;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.scroll-up-btn:hover {
+    filter: brightness(90%);
+}
+
+/*Root div styling */
+:root {
+    background-color: #2d312b;
+}
+
+/* about page list styling */
+.tech-list {
+    float:left;
+    margin-left: 15%;
+}
+.tech-list .tech-list-title {
+    margin-left: -3px;
+    color: #7ec850;
+    font-size: 25px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+.event-buttons {
+    float:inline-start;
+    margin-right: 20px;
+}
+#create-button, #find-button, #update-button {
+    margin-top: 30px;
+    background:#7ec850;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+}
+/* general section styling */
+.general {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    color: #fff;
+    min-height: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.general-content {
+    width: 100vh;
+}
+
+ .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.general .max-width .row {
+    margin-right: 0;
+}
+
+.general .general-content .title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: -3px;
+    color: #7ec850;
+}
+
+.general .general-content .subtitle {
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: -3px;
+    color: #7ec850;
+}
+
+.general .general-content .text-3 {
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+/* home section styling */
+.home {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.loggedhome {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 16%
+}
+
+ .max-width {
+    width: 100%;
+    display: flex;
+}
+
+.max-width .row {
+    margin-right: 0;
+}
+
+.home-content .text-1 {
+    font-size: 30px;
+}
+
+.home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home-content .text-2 span {
+    color: #7ec850;
+}
+
+.home-content .text-3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.home-content a {
+    display: inline-block;
+    background:#7ec850;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #7ec850;
+    transition: all 0.3s ease;
+}
+
+.home-content a:hover {
+    color: #fff;
+    background: none;
+}
+
+
+/* footer section styling */
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: #7ec850;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+/* login and registration form styling  starts */
+.wrapper {
+    max-width: 450px;
+    width: 100%;
+    height: 610px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px rgba(68, 75, 87, 0.356),
+                2px 2px 5px rgba(68, 75, 87, 0.356);
+}
+
+.login {
+    height: 450px;
+}
+
+.next-page {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.container {
+    padding: 20px 40px;
+}
+
+.tabs ul {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.input_field {
+    margin-bottom: 25px;
+    margin-top: 28px;
+}
+
+.input_field .input {
+    width: 100%;
+    border: none;
+    background: #dde9ecb7;
+    color: black;
+    font-family: sans-serif;
+    border: 2px solid #7ec850;
+    font-size: 14px;
+    padding: 17px;
+    border-radius: 10px;
+} 
+
+.btn {
+    margin-top: 30px;
+    background:#7ec850;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.btn:hover {
+    background:#50c85a;
+}
+
+.btn a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* Profile css */
+.profile {
+    font-size: 75px;
+    font-weight: 600;
+    margin-right: 30px;
+    float: right;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin-right: 25%;
+    margin-top: 16%;
+}
+.profile span {
+    color: #7ec850;
+}
+
+/* event form css */
+.eventformwrapper {
+    max-width: 450px;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px rgba(68, 75, 87, 0.356),
+                2px 2px 5px rgba(68, 75, 87, 0.356);
+}
+
+/* individual event css */
+.eventwrapper {
+    position: flex;
+    top: 50px;
+}
+ .eventlisting {
+    position: relative;
+    margin-left: 50%;
+    width: 80vh;
+    height: 25vh;
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px rgba(68, 75, 87, 0.356),
+                2px 2px 5px rgba(68, 75, 87, 0.356);
+    margin-top: 20px;    
+}
+.eventinfo {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    margin-right: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.event-image {
+    float:right;
+    max-height: 280 px;
+    max-width: 158px;
+    margin-right: 40px;
+    position: relative;
+    top: 40px
+}
+#delete-event-button {
+    color: white;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+
+/* responsive media query start */
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+    .home .home-content a {
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+    .max-width {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .home .home-content .text-2 {
+        font-size: 45px;
+    }
+    .home .home-content .text-3 {
+        font-size: 20px;
+    }
+    .home .home-content a {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+        font-size: 40px;
+    }
+    .home .home-content .text-3 {
+        font-size: 18px;
+    }
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}

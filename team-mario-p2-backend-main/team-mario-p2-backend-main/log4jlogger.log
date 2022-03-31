@@ -1,0 +1,62 @@
+2022-03-21 21:04:37 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-21 21:05:29 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-21 21:30:45 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-21 23:34:00 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-22 10:12:59 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 10:08:34 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 10:14:52 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 12:26:00 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:10:37 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:12:20 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:15:26 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:15:27 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:16:06 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:16:43 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:20:23 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:29:30 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 13:47:19 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:14:03 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:15:15 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:18:19 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:20:26 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:21:45 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:21:59 INFO  EventAspect:27 - All Events Logged / Command signature:  List teamup.p2backend.controller.EventController.getEvents()
+2022-03-23 15:33:25 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:34:45 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:35:09 INFO  SportAspect:31 - Executing: Get (a) sport logged / Command signature:  Sport teamup.p2backend.controller.SportController.getSport(String)
+2022-03-23 15:42:38 INFO  SportAspect:21 - Sport addition logged / Command signature:  Sport teamup.p2backend.controller.SportController.postSport(Sport)
+2022-03-23 15:44:17 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.controller.SportController.deleteSport(String)
+2022-03-23 15:44:17 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.service.SportService.deleteSport(String)
+2022-03-23 15:46:33 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.controller.SportController.deleteSport(String)
+2022-03-23 15:46:33 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.service.SportService.deleteSport(String)
+2022-03-23 15:50:10 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:51:28 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:52:54 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 15:55:00 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.controller.SportController.deleteSport(String)
+2022-03-23 15:55:00 INFO  SportAspect:26 - Executing: Delete sport logged / Command signature:  void teamup.p2backend.service.SportService.deleteSport(String)
+2022-03-23 16:46:14 INFO  P2BackendApplication:21 - Initiating Backend Logs
+2022-03-23 16:46:28 INFO  UserAspect:18 - User created / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:46:28 INFO  UserAspect:28 - Executing: Post(create) User / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:47:28 INFO  UserAspect:33 - Executing: Update User / Command signature:  void teamup.p2backend.controller.UserController.updateUser(User)
+2022-03-23 16:47:28 INFO  UserAspect:33 - Executing: Update User / Command signature:  void teamup.p2backend.service.UserService.updateUser(User)
+2022-03-23 16:49:28 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.controller.UserController.deleteUser(String)
+2022-03-23 16:49:28 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.service.UserService.deleteUser(String)
+2022-03-23 16:55:44 INFO  UserAspect:18 - User created / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:55:44 INFO  UserAspect:28 - Executing: Post(create) User / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:56:22 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.controller.UserController.deleteUser(String)
+2022-03-23 16:56:22 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.service.UserService.deleteUser(String)
+2022-03-23 16:56:55 INFO  UserAspect:18 - User created / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:56:55 INFO  UserAspect:28 - Executing: Post(create) User / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:57:07 INFO  UserAspect:18 - User created / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:57:07 INFO  UserAspect:28 - Executing: Post(create) User / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-23 16:57:26 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.controller.UserController.deleteUser(String)
+2022-03-23 16:57:26 INFO  UserAspect:38 - Executing: Update User / Command signature:  void teamup.p2backend.service.UserService.deleteUser(String)
+2022-03-24 14:10:04 INFO  P2BackendApplication:12 - Initiating Backend Logs
+2022-03-24 14:11:08 INFO  P2BackendApplication:12 - Initiating Backend Logs
+2022-03-24 14:12:52 INFO  EventAspect:17 - Post Event Logged / Command signature:  Event teamup.p2backend.controller.EventController.postEvent(Event)
+2022-03-24 14:13:21 INFO  EventAspect:32 - Get Event By Logged / Command signature:  Event teamup.p2backend.controller.EventController.getEventByName(String)
+2022-03-24 14:26:45 INFO  P2BackendApplication:12 - Initiating Backend Logs
+2022-03-24 14:27:18 INFO  UserAspect:18 - User created / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-24 14:27:18 INFO  UserAspect:28 - Executing: Post(create) User / Command signature:  User teamup.p2backend.controller.UserController.postUser(User)
+2022-03-24 17:12:28 INFO  P2BackendApplication:12 - Initiating Backend Logs
+2022-03-25 11:55:08 INFO  P2BackendApplication:12 - Initiating Backend Logs
