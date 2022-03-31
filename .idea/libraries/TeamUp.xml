@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="TeamUp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/team-mario-p2-frontend--main.zip!/" />
+      <root url="jar://$PROJECT_DIR$/team-mario-p2-backend-main.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
